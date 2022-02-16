@@ -1,0 +1,1 @@
+# ms_mongo_template
