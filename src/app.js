@@ -4,11 +4,6 @@ require('dotenv').config()
 const connectMongo = require("./database/MongoConection");
 
 const app = express()
-
-//require("./helpers/RedisConnection");
-//const client = require('./helpers/RedisConnection')
-
-//client.connect()
 //Connect Mongo
 connectMongo();
 // MIDLEWARE
