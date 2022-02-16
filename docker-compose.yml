@@ -2,14 +2,7 @@ version: '2'
 services:
     msa:
         restart: always
-        image: 'bx_template_node:PROD1.016'
+        image: 'ms_mongo:PROD1.016'
         env_file: .env.production
         ports:
             - '30007:3007'
-
-    msb:
-        restart: always
-        image: 'bx_template_node:PROD1.016'
-        env_file: .env.production
-        ports:
-            - '40007:3007'

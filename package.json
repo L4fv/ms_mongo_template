@@ -1,5 +1,5 @@
 {
-  "name": "bx_template_node",
+  "name": "ms_mongo",
   "private": true,
   "description": "Microservicio template",
   "author": "Luis Flores Vallejos <l.flores@moveapps.cl>",

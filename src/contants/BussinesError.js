@@ -15,12 +15,12 @@ class BusinessError extends Error {
       "@timestamp": new Date(),
       "@version": "1",
       message: messages,
-      logger_name: "bx.com.node.App", // backend utilizadovariable de entorno
+      logger_name: "node.App", // backend utilizadovariable de entorno
       thread_name: "main",
       level: "ERROR",
       level_value: 40000,
       detalleError: {
-        backend: "bx_node_template", //variable de entorno
+        backend: "node_template", //variable de entorno
         reason: messages,
         errorSource: "App",
         traceError: messages,
